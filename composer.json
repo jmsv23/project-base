@@ -61,7 +61,8 @@
         "drupal/twig_tweak": "^1.9",
         "harvesthq/chosen": "^1.7",
         "kporras07/composer-symlinks": "^0.1.0@dev",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "drupal/graphql": "^3.0"
     },
     "autoload-dev": {
         "psr-4": { "Octane\\Tests\\": "test/src/" }
@@ -112,9 +113,6 @@
             ],
             "build/html/profiles/contrib/{$name}": [
                 "type:drupal-profile"
-            ],
-            "build/html/libraries/contrib/{$name}": [
-                "type:drupal-library"
             ],
             "build/html/themes/contrib/{$name}": [
                 "type:drupal-theme"
