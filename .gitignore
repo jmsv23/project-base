@@ -41,3 +41,6 @@ npm-debug.log
 # Outrigger
 nhlbi-d8-sync.log
 .unison.*
+
+#Docksal local config
+.docksal/docksal-local.env
