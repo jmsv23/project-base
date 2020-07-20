@@ -1,0 +1,22 @@
+uuid: 86f921ee-e3e8-425f-873c-c1845416dfbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - particle
+_core:
+  default_config_hash: uh0Xy-9uihBKlgv11aaIgiBk8UtqDjPJlLDmwUTf_T4
+id: particle_powered
+theme: particle
+region: footer
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
