@@ -1,0 +1,7 @@
+name: 'menuql'
+type: module
+description: 'generate the graphql schema for the menu content type'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - graphql

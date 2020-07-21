@@ -1,0 +1,13 @@
+schema {
+  query: Query
+}
+
+type Query {
+  menu(id: Int!): Menu
+}
+
+type Menu {
+  id: Int!
+  name: String!
+  description: String
+}
