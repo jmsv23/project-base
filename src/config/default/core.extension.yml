@@ -74,6 +74,7 @@ module:
   media_entity_twitter: 0
   media_library: 0
   menu_ui: 0
+  menuql: 0
   metatag: 0
   moderation_dashboard: 0
   moderation_sidebar: 0

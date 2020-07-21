@@ -1,0 +1,12 @@
+uuid: 62358b37-02ba-4479-91c1-2a9e9fb5edb6
+langcode: en
+status: true
+dependencies: {  }
+name: test1
+label: test1
+schema: menuql
+schema_configuration: {  }
+endpoint: /menuql
+debug: true
+caching: true
+batching: true

@@ -74,7 +74,9 @@ media_entity_instagram: 2.1.0
 media_entity_twitter: 2.4.0
 media_library: 8.8.8
 menu_link_content: 8.8.8
+menu_schema: 0.0.0
 menu_ui: 8.8.8
+menuql: 0.0.0
 metatag: 1.13.0
 moderation_dashboard: 1.0.0-beta2
 moderation_sidebar: 1.4.0
