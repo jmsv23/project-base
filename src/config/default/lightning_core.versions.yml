@@ -30,6 +30,7 @@ field: 8.8.8
 field_ui: 8.8.8
 file: 8.8.8
 filter: 8.8.8
+graphql: 4.0.0-alpha3
 help: 8.8.8
 history: 8.8.8
 image: 8.8.8
@@ -106,6 +107,7 @@ taxonomy: 8.8.8
 text: 8.8.8
 token: 1.7.0
 toolbar: 8.8.8
+typed_data: 1.0.0-alpha5
 update: 8.8.8
 user: 8.8.8
 video_embed_field: 2.4.0
