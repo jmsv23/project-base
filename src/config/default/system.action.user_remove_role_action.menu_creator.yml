@@ -1,0 +1,14 @@
+uuid: 2f319282-b21d-4d4a-a695-6d76d7894ef3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.menu_creator
+  module:
+    - user
+id: user_remove_role_action.menu_creator
+label: 'Remove the Menu creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: menu_creator

@@ -1,0 +1,14 @@
+uuid: 05513f18-2510-4b9d-be41-29fffeb5571d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.menu_creator
+  module:
+    - user
+id: user_add_role_action.menu_creator
+label: 'Add the Menu creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: menu_creator

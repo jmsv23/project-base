@@ -1,0 +1,41 @@
+uuid: 86dfb810-9f1d-42ed-9095-03d92e55c7fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu_item.field_description
+    - field.field.paragraph.menu_item.field_img
+    - field.field.paragraph.menu_item.field_name
+    - paragraphs.paragraphs_type.menu_item
+  module:
+    - image
+id: paragraph.menu_item.default
+targetEntityType: paragraph
+bundle: menu_item
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_img:
+    weight: 4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_name:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -26,6 +26,7 @@ entity_browser: 2.5.0
 entity_browser_block: 1.1.0
 entity_embed: 1.1.0
 entity_reference: 8.8.8
+entity_reference_revisions: 1.8.0
 field: 8.8.8
 field_ui: 8.8.8
 file: 8.8.8
@@ -87,6 +88,7 @@ options: 8.8.8
 page_cache: 8.8.8
 page_manager: 4.0.0-beta6
 panels: 4.4.0
+paragraphs: 1.12.0
 path: 8.8.8
 path_alias: 8.8.8
 pathauto: 1.8.0

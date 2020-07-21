@@ -2,6 +2,10 @@ uuid: 4d3dddf6-dd2b-4bdf-8c08-7544158731bf
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.landing_page
+    - node.type.menu
+    - node.type.page
   module:
     - content_moderation
 _core:
@@ -71,4 +75,5 @@ type_settings:
   entity_types:
     node:
       - landing_page
+      - menu
       - page

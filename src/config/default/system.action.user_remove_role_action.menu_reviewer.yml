@@ -1,0 +1,14 @@
+uuid: 6bb0a7e1-bc0c-4b4b-8c22-01cd3328aaee
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.menu_reviewer
+  module:
+    - user
+id: user_remove_role_action.menu_reviewer
+label: 'Remove the Menu reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: menu_reviewer

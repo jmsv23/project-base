@@ -1,0 +1,38 @@
+uuid: 6fdf3b80-4797-45c1-9e3d-0eee97f8be76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu_group.field_item
+    - field.field.paragraph.menu_group.field_name
+    - paragraphs.paragraphs_type.menu_group
+  module:
+    - paragraphs
+id: paragraph.menu_group.default
+targetEntityType: paragraph
+bundle: menu_group
+mode: default
+content:
+  field_item:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

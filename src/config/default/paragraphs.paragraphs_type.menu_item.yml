@@ -1,0 +1,10 @@
+uuid: 0192f3aa-4f91-4a89-be04-08ba6ef623b8
+langcode: en
+status: true
+dependencies: {  }
+id: menu_item
+label: 'menu item'
+icon_uuid: null
+icon_default: null
+description: 'Menu item paragraph type to handle the title, description and image.'
+behavior_plugins: {  }

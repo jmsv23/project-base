@@ -1,0 +1,34 @@
+uuid: f0056fc8-3868-4c7e-af03-01ac27a53871
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item
+    - paragraphs.paragraphs_type.menu_group
+    - paragraphs.paragraphs_type.menu_item
+  module:
+    - entity_reference_revisions
+id: paragraph.menu_group.field_item
+field_name: field_item
+entity_type: paragraph
+bundle: menu_group
+label: Item
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      menu_item: menu_item
+    target_bundles_drag_drop:
+      menu_group:
+        weight: 3
+        enabled: false
+      menu_item:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions
