@@ -32,6 +32,7 @@ module:
   file: 0
   filter: 0
   graphql: 0
+  graphql_examples: 0
   help: 0
   history: 0
   image: 0
