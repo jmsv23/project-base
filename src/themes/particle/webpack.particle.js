@@ -54,18 +54,18 @@ module.exports = {
             },
           },
           {
-            loader: 'resolve-url-loader',
-            options: {
-              sourceMap: true,
-              root: '',
-            },
-          },
-          {
             // PostCSS config at ./postcss.config.js
             loader: 'postcss-loader',
             options: {
               sourceMap: true,
               ident: 'postcss',
+            },
+          },
+          {
+            loader: 'resolve-url-loader',
+            options: {
+              sourceMap: true,
+              root: '',
             },
           },
         ],
@@ -86,6 +86,9 @@ module.exports = {
         exclude: /@babel(?:\/|\\{1,2})runtime|core-js/,
         use: {
           loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-react']
+          }
         },
       },
       {
