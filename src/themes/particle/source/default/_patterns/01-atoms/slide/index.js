@@ -11,12 +11,9 @@ import 'protons';
 // Module template
 import './_slide.twig';
 import SimpleComponent from 'lib/components/SimpleComponent';
+import './slide.scss';
 
 export const name = 'slide';
-
-export const defaults = {
-  dummyClass: 'js-slide-exists',
-};
 
 /**
  * Components may need to run clean-up tasks if they are removed from DOM.

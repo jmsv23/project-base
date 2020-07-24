@@ -45,9 +45,8 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        use: [
-          {
+        test: /\.(sa|sc|c)ss$/,
+        use: [{
             loader: 'css-loader',
             options: {
               sourceMap: true,
@@ -67,6 +66,9 @@ module.exports = {
               sourceMap: true,
               root: '',
             },
+          },
+          {
+            loader: 'sass-loader',
           },
         ],
       },

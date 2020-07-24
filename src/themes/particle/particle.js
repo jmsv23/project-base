@@ -34,7 +34,7 @@ const cssModes = {
     module: {
       rules: [
         {
-          test: /\.css$/,
+          test: /\.(sa|sc|c)ss$/,
           use: [{ loader: 'style-loader' }, { loader: 'vue-style-loader' }],
         },
       ],
@@ -47,7 +47,7 @@ const cssModes = {
     module: {
       rules: [
         {
-          test: /\.css$/,
+          test: /\.(sa|sc|c)ss$/,
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
