@@ -1,9 +1,9 @@
-uuid: 62358b37-02ba-4479-91c1-2a9e9fb5edb6
+uuid: 23f04c10-b73b-4aab-8ac8-b9b5bcdb4ee1
 langcode: en
 status: true
 dependencies: {  }
-name: test1
-label: test1
+name: test
+label: test
 schema: menuql
 schema_configuration: {  }
 endpoint: /menuql

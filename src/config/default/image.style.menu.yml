@@ -1,0 +1,15 @@
+uuid: db5ccb68-e4b2-423e-a468-bdc66b8744a6
+langcode: en
+status: true
+dependencies: {  }
+name: menu
+label: menu
+effects:
+  d7dd3560-20f3-47cd-9a9c-5d7a887006c8:
+    uuid: d7dd3560-20f3-47cd-9a9c-5d7a887006c8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      anchor: center-center

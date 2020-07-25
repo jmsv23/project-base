@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.menu_item.field_description
     - field.field.paragraph.menu_item.field_img
     - field.field.paragraph.menu_item.field_name
+    - field.field.paragraph.menu_item.field_price
     - paragraphs.paragraphs_type.menu_item
   module:
     - image
@@ -37,5 +38,16 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_price:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
     region: content
 hidden: {  }
