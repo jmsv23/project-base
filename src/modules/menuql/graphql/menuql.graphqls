@@ -6,8 +6,16 @@ type Query {
   menu(id: Int!): Menu
 }
 
-type Menu {
+type Menu implements NodeInterface {
   id: Int!
-  name: String!
-  description: String
+  title: String!
+  groups: [Groups]
+}
+
+type Groups {
+  name: String
+}
+
+interface NodeInterface {
+  id: Int!
 }
