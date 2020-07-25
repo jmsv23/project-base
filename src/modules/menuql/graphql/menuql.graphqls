@@ -9,11 +9,19 @@ type Query {
 type Menu implements NodeInterface {
   id: Int!
   title: String!
-  groups: [Groups]
+  groups: [Group]
 }
 
-type Groups {
+type Group {
   name: String
+  items: [Item]
+}
+
+type Item {
+  name: String
+  description: String
+  price: Float
+  image: [String]
 }
 
 interface NodeInterface {
