@@ -1,7 +1,51 @@
 .slide {
-  background-color: theme('colors.orange.100');
+  border: dashed 2px theme('colors.orange.300');
 
-  h1 {
-    font-size: rem-calc(80);
+  &--xl {
+    @apply pt-6;
+    @apply pl-3;
+    @apply pr-3;
+    @apply pb-6;
+    @apply mb-8;
+
+    @screen sm {
+      @apply mb-12;
+    }
+  }
+
+  &--lg {
+    @apply pt-4;
+    @apply pl-2;
+    @apply pr-2;
+    @apply pb-4;
+    @apply mb-6;
+
+    @screen sm {
+      @apply mb-10;
+    }
+  }
+
+  &--sm {
+    @apply pt-2;
+    @apply pl-1;
+    @apply pr-1;
+    @apply pb-2;
+    @apply mb-4;
+
+    @screen sm {
+      @apply mb-8;
+    }
+  }
+
+  &--xs {
+    @apply pt-1;
+    @apply pl-1;
+    @apply pr-1;
+    @apply pb-1;
+    @apply mb-2;
+
+    @screen sm {
+      @apply mb-4;
+    }
   }
 }

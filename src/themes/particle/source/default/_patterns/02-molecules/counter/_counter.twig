@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * counter
+ *
+ * Available variables for counter:
+ *  - counter.variable_name [variable_type]: Description of the variable. Example below.
+ *  - counter.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+{% set slide_size = 'lg' %}
+{% extends '@atoms/slide/_slide.twig' %}
+{% block slide_content %}
+  {% include '@atoms/heading/_heading.twig' with {
+    title: 'Counter'
+  } %}
+  <div id="counter"></div>
+{% endblock %}

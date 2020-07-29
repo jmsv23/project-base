@@ -1,0 +1,9 @@
+heading_demo_block:
+  title: Heading Component
+  content:
+    lead: Add a quick description here.
+    summary: Add code examples here using <code>html code syntax</code>
+
+heading:
+  title: heading title
+

@@ -4,4 +4,17 @@
 
 {% block content %}
   {% include '@atoms/slide/_slide.twig' %}
+
+  {% include '@atoms/slide/_slide.twig' with {
+    slide_size: 'lg'
+  } %}
+
+  {% include '@atoms/slide/_slide.twig' with {
+    slide_size: 'sm'
+  } %}
+
+  {% include '@atoms/slide/_slide.twig' with {
+    slide_size: 'xs'
+  } %}
+
 {% endblock %}

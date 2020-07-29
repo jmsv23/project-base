@@ -1,0 +1,35 @@
+{% extends '@demo/_demo-block.twig' %}
+
+{% set demo = heading_demo_block %}
+
+{% block content %}
+  {% include '@atoms/heading/_heading.twig' with {
+    title: heading.title
+  } %}
+
+  {% include '@atoms/heading/_heading.twig' with {
+    title: heading.title,
+    tag: 'h2'
+  } %}
+
+  {% include '@atoms/heading/_heading.twig' with {
+    title: heading.title,
+    tag: 'h3'
+  } %}
+
+  {% include '@atoms/heading/_heading.twig' with {
+    title: heading.title,
+    tag: 'h4'
+  } %}
+
+  {% include '@atoms/heading/_heading.twig' with {
+    title: heading.title,
+    tag: 'h5'
+  } %}
+
+  {% include '@atoms/heading/_heading.twig' with {
+    title: heading.title,
+    tag: 'h6'
+  } %}
+
+{% endblock %}

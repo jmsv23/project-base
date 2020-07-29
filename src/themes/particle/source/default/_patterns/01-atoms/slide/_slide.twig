@@ -8,5 +8,9 @@
  *  - slide.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
-
-<div class="slide" id="slide"></div>
+{% set size = slide_size ?? 'xl' %}
+<div class="slide slide--{{ size }}">
+  {% block slide_content %}
+    placeholder content
+  {% endblock %}
+</div>

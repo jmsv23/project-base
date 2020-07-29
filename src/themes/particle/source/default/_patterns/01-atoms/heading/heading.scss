@@ -1,0 +1,36 @@
+.heading {
+  h1 {
+    @apply text-6xl;
+    @apply mb-4;
+    color: theme('colors.orange.600');
+    letter-spacing: 6px;
+  }
+
+  h2 {
+    @apply text-5xl;
+    @apply text-blue-400;
+    @apply mb-3;
+    letter-spacing: 5px;
+  }
+
+  h3 {
+    @apply text-4xl;
+    @apply mb-2;
+    letter-spacing: 4px;
+  }
+
+  h4 {
+    @apply text-3xl;
+    @apply mb-1;
+    letter-spacing: 3px;
+  }
+
+  h5 {
+    @apply text-2xl;
+    letter-spacing: 2px;
+  }
+
+  h6 {
+    @apply text-xl;
+  }
+}
