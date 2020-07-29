@@ -69,6 +69,9 @@ module.exports = {
           },
           {
             loader: 'sass-loader',
+            options: {
+              additionalData: '@import "~tokens/sass/tokens";',
+            }
           },
         ],
       },

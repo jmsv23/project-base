@@ -1,3 +1,7 @@
 .slide {
-  @apply bg-blue-500;
+  background-color: theme('colors.orange.100');
+
+  h1 {
+    font-size: rem-calc(80);
+  }
 }
